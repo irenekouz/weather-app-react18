@@ -1,0 +1,18 @@
+.air-conditions-card {
+    width: 500px;
+    height: max-content;
+    margin-block: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.air-conditions-card--light {
+    background: #EBECEF;
+    color: #202B3B;
+}
+.air-conditions-card--dark {
+    background: #202B3B;
+    color: #F0F1F1;
+}

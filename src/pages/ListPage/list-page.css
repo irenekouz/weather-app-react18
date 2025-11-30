@@ -1,0 +1,16 @@
+.row__country {
+    margin-left: 1rem;
+}
+
+.row__city {
+    margin-left: 2rem;
+}
+
+.row__city span {
+    cursor: pointer;
+}
+
+.row__city:hover {
+    color: #1da1f2;
+}
+

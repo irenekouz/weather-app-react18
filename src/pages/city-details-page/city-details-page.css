@@ -1,0 +1,17 @@
+.back-to-list {
+    margin-block: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.back-to-list img,
+.back-to-list a {
+    cursor: pointer;
+    color: #1da1f2;
+}
+
+.city-details {
+    margin: 1rem;
+}

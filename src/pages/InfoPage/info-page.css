@@ -1,0 +1,22 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-block: 1rem;
+}
+
+.about__content {
+    max-width: 50%;
+    height: max-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+}
+
+.about--light .about__content  {
+    background: #EBECEF;
+}
+
+.about--dark .about__content  {
+    background: #202B3B;
+}

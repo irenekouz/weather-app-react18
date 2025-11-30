@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 3rem 3rem 1fr 3rem;
+}
+
+.theme-light {
+  background: #F5F5F5;
+  color: #202B3B;
+}
+
+.theme-dark {
+  background: #0B131E;
+  color: #F0F1F1;
+}

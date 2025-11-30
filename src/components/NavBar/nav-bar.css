@@ -1,0 +1,33 @@
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a.active {
+    font-weight: bold;
+}
+
+.navbar--light {
+    background: #EBECEF;
+    color: #202B3B;
+}
+
+.navbar--light a {
+    color: #202B3B;
+    text-decoration: none;
+}
+
+.navbar--dark {
+    background: #202B3B;
+    color: #F0F1F1;
+}
+
+.navbar--dark a {
+    color: #F0F1F1;
+    text-decoration: none;
+}
